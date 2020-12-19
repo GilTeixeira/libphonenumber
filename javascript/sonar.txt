@@ -1,0 +1,97 @@
+INFO: Scanner configuration file: /home/gildt/Downloads/sonar-scanner-4.4.0.2170-linux/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: SonarScanner 4.4.0.2170
+INFO: Java 11.0.3 AdoptOpenJDK (64-bit)
+INFO: Linux 5.8.0-7630-generic amd64
+INFO: User cache: /home/gildt/.sonar/cache
+INFO: Scanner configuration file: /home/gildt/Downloads/sonar-scanner-4.4.0.2170-linux/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: Analyzing on SonarQube server 8.5.1
+INFO: Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
+INFO: Load global settings
+INFO: Load global settings (done) | time=34ms
+INFO: Server id: BF41A1F2-AXWaCL20WvS0kgltq7cA
+INFO: User cache: /home/gildt/.sonar/cache
+INFO: Load/download plugins
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=25ms
+INFO: Load/download plugins (done) | time=64ms
+INFO: Process project properties
+INFO: Process project properties (done) | time=5ms
+INFO: Execute project builders
+INFO: Execute project builders (done) | time=1ms
+INFO: Project key: libphonenumber-js
+INFO: Base dir: /home/gildt/Desktop/feup-diss-val/test/libphonenumber/javascript
+INFO: Working dir: /home/gildt/Desktop/feup-diss-val/test/libphonenumber/javascript/.scannerwork
+INFO: Load project settings for component key: 'libphonenumber-js'
+INFO: Load project settings for component key: 'libphonenumber-js' (done) | time=9ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=30ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=579ms
+INFO: Indexing files...
+INFO: Project configuration:
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=9ms
+INFO: 22 files indexed
+INFO: 0 files ignored because of scm ignore settings
+INFO: Quality profile for js: Sonar way
+INFO: Quality profile for web: Sonar way
+INFO: Quality profile for xml: Sonar way
+INFO: ------------- Run sensors on module libphonenumber-js
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=13ms
+INFO: Sensor CSS Rules [cssfamily]
+INFO: 5 source files to be analyzed
+INFO: 5/5 source files have been analyzed
+INFO: Sensor CSS Rules [cssfamily] (done) | time=991ms
+INFO: Sensor JaCoCo XML Report Importer [jacoco]
+INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=2ms
+INFO: Sensor JavaScript analysis [javascript]
+INFO: 14 source files to be analyzed
+INFO: 14/14 source files have been analyzed
+INFO: Java-based frontend sensor [javascript]
+INFO: 14 source files to be analyzed
+INFO: Java-based frontend sensor [javascript] (done) | time=7055ms
+INFO: Sensor JavaScript analysis [javascript] (done) | time=11228ms
+INFO: Sensor C# Properties [csharp]
+INFO: 14/14 source files have been analyzed
+INFO: Sensor C# Properties [csharp] (done) | time=1ms
+INFO: Sensor JavaXmlSensor [java]
+INFO: 1 source files to be analyzed
+INFO: Sensor JavaXmlSensor [java] (done) | time=134ms
+INFO: 1/1 source files have been analyzed
+INFO: Sensor HTML [web]
+INFO: Sensor HTML [web] (done) | time=36ms
+INFO: Sensor XML Sensor [xml]
+INFO: 1 source files to be analyzed
+INFO: Sensor XML Sensor [xml] (done) | time=65ms
+INFO: Sensor VB.NET Properties [vbnet]
+INFO: 1/1 source files have been analyzed
+INFO: Sensor VB.NET Properties [vbnet] (done) | time=0ms
+INFO: ------------- Run sensors on project
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=32ms
+INFO: SCM Publisher SCM provider for this project is: git
+INFO: SCM Publisher 20 source files to be analyzed
+INFO: SCM Publisher 20/20 source files have been analyzed (done) | time=1377ms
+INFO: CPD Executor Calculating CPD for 19 files
+WARN: Too many duplication groups on file i18n/phonenumbers/metadatalite.js. Keep only the first 100 groups.
+WARN: Too many duplication groups on file i18n/phonenumbers/shortnumbermetadata.js. Keep only the first 100 groups.
+WARN: Too many duplication groups on file i18n/phonenumbers/metadata.js. Keep only the first 100 groups.
+INFO: CPD Executor CPD calculation finished (done) | time=201ms
+INFO: Analysis report generated in 40ms, dir size=2 MB
+INFO: Analysis report compressed in 89ms, zip size=670 KB
+INFO: Analysis report uploaded in 52ms
+INFO: ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard?id=libphonenumber-js
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at http://localhost:9000/api/ce/task?id=AXZ8j5wF0bDxx5kD5G4I
+INFO: Analysis total time: 16.258 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 16.774s
+INFO: Final Memory: 14M/60M
+INFO: ------------------------------------------------------------------------
