@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 
-<project name="libphonenumber" default="compile">
+<project name="libphonenumber" default="compile" xmlns:sonar="antlib:org.sonar.ant">
   <property name="libphonenumber.src.dir" value="libphonenumber/src"/>
   <property name="libphonenumber.test.dir" value="libphonenumber/test"/>
   <property name="carrier.src.dir" value="carrier/src"/>
@@ -18,6 +18,16 @@
   <property name="javascript.dir" value="../javascript"/>
   <property name="build.tools.jar"
       value="../tools/java/java-build/target/java-build-1.0-SNAPSHOT-jar-with-dependencies.jar"/>
+  <!-- Define the SonarQube global properties (the most usual way is to pass these properties via the command line) -->
+  <property name="sonar.host.url" value="http://localhost:9000" />
+  
+  <!-- Define the SonarQube project properties -->
+  <property name="sonar.projectKey" value="libphonenumber-java" />
+  <property name="sonar.projectName" value="libphonenumber-java" />
+  <property name="sonar.projectVersion" value="1.0" />
+  <property name="sonar.sources" value="." />
+  <property name="sonar.java.binaries" value="build" />
+  <property name="sonar.java.libraries" value="lib/*.jar" />
 
   <path id="classpath">
     <fileset dir="${lib.dir}" includes="**/*.jar"/>
@@ -313,4 +323,14 @@
   </target>
 
   <target name="clean-build" depends="clean,jar"/>
+  
+    <!-- Define SonarScanner for Ant Target -->
+  <target name="sonar">
+      <taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
+	  <!-- Update the following line, or put the "sonarqube-ant-task-*.jar" file in your "$HOME/.ant/lib" folder -->
+      </taskdef>
+ 
+      <!-- Execute SonarScanner for Ant Analysis -->
+      <sonar:sonar />
+  </target>
 </project>

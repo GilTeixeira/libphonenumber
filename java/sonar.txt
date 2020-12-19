@@ -1,0 +1,136 @@
+Buildfile: /home/gildt/Desktop/feup-diss-val/test/libphonenumber/java/build.xml
+
+sonar:
+[sonar:sonar] Apache Ant(TM) version 1.10.8 compiled on January 8 1970
+[sonar:sonar] SonarQube Ant Task version: 2.7.0.1612
+[sonar:sonar] Loaded from: file:/home/gildt/.ant/lib/sonarqube-ant-task-2.7.0.1612.jar
+[sonar:sonar] User cache: /home/gildt/.sonar/cache
+[sonar:sonar] Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
+[sonar:sonar] Load global settings
+[sonar:sonar] Load global settings (done) | time=37ms
+[sonar:sonar] Server id: BF41A1F2-AXWaCL20WvS0kgltq7cA
+[sonar:sonar] User cache: /home/gildt/.sonar/cache
+[sonar:sonar] Load/download plugins
+[sonar:sonar] Load plugins index
+[sonar:sonar] Load plugins index (done) | time=20ms
+[sonar:sonar] Load/download plugins (done) | time=64ms
+[sonar:sonar] Process project properties
+[sonar:sonar] Process project properties (done) | time=5ms
+[sonar:sonar] Execute project builders
+[sonar:sonar] Execute project builders (done) | time=1ms
+[sonar:sonar] Project key: libphonenumber-java
+[sonar:sonar] Base dir: /home/gildt/Desktop/feup-diss-val/test/libphonenumber/java
+[sonar:sonar] Working dir: /home/gildt/Desktop/feup-diss-val/test/libphonenumber/java/.scannerwork
+[sonar:sonar] Load project settings for component key: 'libphonenumber-java'
+[sonar:sonar] Load project settings for component key: 'libphonenumber-java' (done) | time=8ms
+[sonar:sonar] Load quality profiles
+[sonar:sonar] Load quality profiles (done) | time=33ms
+[sonar:sonar] Load active rules
+[sonar:sonar] Load active rules (done) | time=651ms
+[sonar:sonar] Indexing files...
+[sonar:sonar] Project configuration:
+[sonar:sonar] Load project repositories
+[sonar:sonar] Load project repositories (done) | time=16ms
+[sonar:sonar] 1599 files indexed
+[sonar:sonar] 0 files ignored because of scm ignore settings
+[sonar:sonar] Quality profile for css: Sonar way
+[sonar:sonar] Quality profile for java: Sonar way
+[sonar:sonar] Quality profile for jsp: Sonar way
+[sonar:sonar] Quality profile for xml: Sonar way
+[sonar:sonar] ------------- Run sensors on module libphonenumber-java
+[sonar:sonar] Load metrics repository
+[sonar:sonar] Load metrics repository (done) | time=13ms
+[sonar:sonar] Sensor JavaSquidSensor [java]
+[sonar:sonar] Configured Java source version (sonar.java.source): none
+[sonar:sonar] JavaClasspath initialization
+[sonar:sonar] JavaClasspath initialization (done) | time=6ms
+[sonar:sonar] JavaTestClasspath initialization
+[sonar:sonar] JavaTestClasspath initialization (done) | time=0ms
+[sonar:sonar] Java Main Files AST scan
+[sonar:sonar] 53 source files to be analyzed
+[sonar:sonar] 53/53 source files have been analyzed
+[sonar:sonar] Java Main Files AST scan (done) | time=8815ms
+[sonar:sonar] Java Test Files AST scan
+[sonar:sonar] 0 source files to be analyzed
+[sonar:sonar] Java Test Files AST scan (done) | time=1ms
+[sonar:sonar] 0/0 source files have been analyzed
+[sonar:sonar] Java Generated Files AST scan
+[sonar:sonar] 0 source files to be analyzed
+[sonar:sonar] Java Generated Files AST scan (done) | time=0ms
+[sonar:sonar] 0/0 source files have been analyzed
+[sonar:sonar] Sensor JavaSquidSensor [java] (done) | time=8920ms
+[sonar:sonar] Sensor CSS Metrics [cssfamily]
+[sonar:sonar] Sensor CSS Metrics [cssfamily] (done) | time=8ms
+[sonar:sonar] Sensor CSS Rules [cssfamily]
+[sonar:sonar] 1 source files to be analyzed
+[sonar:sonar] 1/1 source files have been analyzed
+[sonar:sonar] Sensor CSS Rules [cssfamily] (done) | time=873ms
+[sonar:sonar] Sensor JaCoCo XML Report Importer [jacoco]
+[sonar:sonar] 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[sonar:sonar] No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+[sonar:sonar] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=3ms
+[sonar:sonar] Sensor C# Properties [csharp]
+[sonar:sonar] Sensor C# Properties [csharp] (done) | time=1ms
+[sonar:sonar] Sensor SurefireSensor [java]
+[sonar:sonar] parsing [/home/gildt/Desktop/feup-diss-val/test/libphonenumber/java/target/surefire-reports]
+[sonar:sonar] Sensor SurefireSensor [java] (done) | time=0ms
+[sonar:sonar] Sensor JavaXmlSensor [java]
+[sonar:sonar] 10 source files to be analyzed
+[sonar:sonar] Sensor JavaXmlSensor [java] (done) | time=151ms
+[sonar:sonar] 10/10 source files have been analyzed
+[sonar:sonar] Sensor HTML [web]
+[sonar:sonar] Sensor HTML [web] (done) | time=24ms
+[sonar:sonar] Sensor XML Sensor [xml]
+[sonar:sonar] 10 source files to be analyzed
+[sonar:sonar] Sensor XML Sensor [xml] (done) | time=96ms
+[sonar:sonar] 10/10 source files have been analyzed
+[sonar:sonar] Sensor VB.NET Properties [vbnet]
+[sonar:sonar] Sensor VB.NET Properties [vbnet] (done) | time=0ms
+[sonar:sonar] ------------- Run sensors on project
+[sonar:sonar] Sensor Zero Coverage Sensor
+[sonar:sonar] Sensor Zero Coverage Sensor (done) | time=23ms
+[sonar:sonar] Sensor Java CPD Block Indexer
+[sonar:sonar] Sensor Java CPD Block Indexer (done) | time=171ms
+[sonar:sonar] SCM Publisher SCM provider for this project is: git
+[sonar:sonar] SCM Publisher 1 source file to be analyzed
+[sonar:sonar] SCM Publisher 0/1 source files have been analyzed (done) | time=110ms
+[sonar:sonar] Missing blame information for the following files:
+[sonar:sonar]   * build.xml
+[sonar:sonar] This may lead to missing/broken features in SonarQube
+[sonar:sonar] CPD Executor 5 files had no CPD blocks
+[sonar:sonar] CPD Executor Calculating CPD for 49 files
+[sonar:sonar] Too many duplication references on file libphonenumber/src/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMap.java for block at line 190. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/src/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMap.java for block at line 190. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/src/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMap.java for block at line 140. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/src/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMap.java for block at line 140. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/src/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMap.java for block at line 140. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/src/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMap.java for block at line 71. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/src/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMap.java for block at line 71. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/src/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMap.java for block at line 71. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/src/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMap.java for block at line 71. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/src/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMap.java for block at line 71. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/src/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMap.java for block at line 71. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/src/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMap.java for block at line 71. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/src/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMap.java for block at line 71. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/src/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMap.java for block at line 71. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/test/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMapForTesting.java for block at line 121. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/test/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMapForTesting.java for block at line 121. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/test/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMapForTesting.java for block at line 121. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/test/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMapForTesting.java for block at line 121. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/test/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMapForTesting.java for block at line 121. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/test/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMapForTesting.java for block at line 62. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/test/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMapForTesting.java for block at line 62. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/test/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMapForTesting.java for block at line 45. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/test/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMapForTesting.java for block at line 45. Keep only the first 100 references.
+[sonar:sonar] Too many duplication references on file libphonenumber/test/com/google/i18n/phonenumbers/CountryCodeToRegionCodeMapForTesting.java for block at line 45. Keep only the first 100 references.
+[sonar:sonar] CPD Executor CPD calculation finished (done) | time=37ms
+[sonar:sonar] Analysis report generated in 52ms, dir size=1 MB
+[sonar:sonar] Analysis report compressed in 118ms, zip size=538 KB
+[sonar:sonar] Analysis report uploaded in 50ms
+[sonar:sonar] ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard?id=libphonenumber-java
+[sonar:sonar] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[sonar:sonar] More about the report processing at http://localhost:9000/api/ce/task?id=AXZ8im8R0bDxx5kD5G37
+[sonar:sonar] Analysis total time: 12.892 s
+
+BUILD SUCCESSFUL
+Total time: 13 seconds
